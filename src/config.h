@@ -2,7 +2,7 @@
 #define CONF_H
 
 // Set to the number of LEDs in your LED strip
-#define NUM_LEDS 31
+#define NUM_LEDS 60
 
 // Toggles FPS output (1 = print FPS over serial, 0 = disable output)
 #define PRINT_FPS 0
@@ -14,9 +14,11 @@
 // make sure to set this to the correct pin
 #define PIXEL_PIN 32
 
+#define ACS_PIN 25
+
 // Wifi and socket settings
-const char* ssid     = "";
-const char* password = "";
+const char* ssid     = "RotorHazard";
+const char* password = "BobbyCar";
 unsigned int localPort = 7777;
 
 // Network information
