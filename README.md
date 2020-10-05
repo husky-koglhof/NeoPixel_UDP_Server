@@ -11,3 +11,5 @@ A UDP server which provides an interface to the NeoPixelBus based on [audio-reac
 - Set `#define NUM_LEDS` to the number of LEDs in your LED strip
 - Set `#define PIXEL_PIN` to the Data Pin on your ESP32
 
+![diagram](images/fritzing.png)
+
